@@ -1,20 +1,19 @@
 let button = document.querySelector("button");
+let textEl = document.querySelector(".text");
+let numEl = document.querySelector(".number");
+let emailEl = document.querySelector(".email")
+let dateEl = document.querySelector (".date")
 
 button.addEventListener("click", function() {
-    let text;
-    let number;
-    let email;
-    let date;
-    
+ text = textElem.value;
+ number = numEl.value;
+ email = emailEl.value;
+ button = button.value;
+ 
+ 
     // 1. Update the four variables - text, number, email, and date.
     //  - Save the value of the four different inputs.
     //  - Go to the html to use the class names.
-    
-
-    
-    
-    
-
 
     // DO NOT CHANGE THIS CODE
     let resultsDiv = document.querySelector('#results');
